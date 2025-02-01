@@ -3,6 +3,7 @@
 <class>
 
 <student>
+<noOfstudent>01</noOfstudent>
 <name>Raima</name>
 <fName>Badar</fName>
 <rollNo>105</rollNo>
@@ -12,6 +13,7 @@
 </student>
 
 <student>
+<noOfstudent>02</noOfstudent>
 <name>Muskan</name>
 <fName>Ilyas</fName>
 <rollNo>106</rollNo>
@@ -21,6 +23,7 @@
 </student>
 
 <student>
+<noOfstudent>03</noOfstudent>
 <name>Neha</name>
 <fName>Nasir</fName>
 <rollNo>107</rollNo>
@@ -30,6 +33,7 @@
 </student>
 
 <student>
+<noOfstudent>04</noOfstudent>
 <name>Abeerah</name>
 <fName>Manzor</fName>
 <rollNo>108</rollNo>
@@ -39,6 +43,7 @@
 </student>
 
 <student>
+<noOfstudent>05</noOfstudent>
 <name>Bareer</name>
 <fName>Don't Know</fName>
 <rollNo>109</rollNo>
@@ -48,18 +53,20 @@
 </student>
 
 <student>
+<noOfstudent>06</noOfstudent>
 <name>Saima</name>
 <fName>Don't Know</fName>
-<rollNo>111</rollNo>
+<rollNo>110</rollNo>
 <group>B</group>
 <projectName>Handy Craft</projectName>
 <teacherName>Sir Maaz</teacherName>
 </student>
 
 <student>
+<noOfstudent>07</noOfstudent>
 <name>Faiza</name>
 <fName>Don't Knowr</fName>
-<rollNo>112</rollNo>
+<rollNo>111</rollNo>
 <group>B</group>
 <projectName>Handy Craft</projectName>
 <teacherName>Sir Maaz</teacherName>

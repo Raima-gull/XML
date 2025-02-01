@@ -24,16 +24,18 @@ table{
       justify-content: center;
       align-items: center;
       margin:50px;
+        border-collapse: collapse;
 }
 .head{
-color: rgb(146, 104, 50);
-     <!-- border:1px solid black; -->
+color: rgb(154, 107, 47);
+ background-color: rgba(232, 203, 164, 0.99);
+     border:1px solid black;
      padding:10px 20px;
      font-size:35px;
 }
 .tbody{
- <!-- border:1px solid black; -->
-font-size:25px
+ border:1px solid black;
+font-size:25px;
  padding:20px;
 }
 tr{
@@ -47,6 +49,7 @@ tr{
 <table>
 
 <tr >
+<th class="head" >#No  </th>
 <th class="head" >Name</th>
 <th  class="head" >Father Name</th>
 <th class="head">Roll no</th>
@@ -58,6 +61,9 @@ tr{
 
 <xsl:for-each select="class/student">
 <tr>
+<td class="tbody" style="font-size:25px;">
+<xsl:value-of select="noOfstudent" />
+</td>
 <td class="tbody" style="font-size:25px;">
 <xsl:value-of select="name" />
 </td>
@@ -76,6 +82,7 @@ tr{
 <td class="tbody" style="font-size:25px;">
 <xsl:value-of select="teacherName" />
 </td>
+
 </tr>
 
 </xsl:for-each>
